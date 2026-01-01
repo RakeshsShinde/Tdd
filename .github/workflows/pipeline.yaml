@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests for backend
         working-directory: todo-backend
-        run: npx test
+        run: npm test
 
       - name: Install dependencies for frontend
         working-directory: todo-backend
